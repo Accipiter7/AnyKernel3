@@ -1,5 +1,5 @@
-
-ZIP := Thy-Kernel.zip
+SHELL:= /bin/bash  
+ZIP := Thy-$(shell date +"%h-%d-[%H][%M]").zip
 
 EXCLUDE := Makefile LICENSE *.git* *placeholder* *.md*
 

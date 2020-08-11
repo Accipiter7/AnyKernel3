@@ -3,6 +3,8 @@ AnyKernel3 - Flashable Zip Template for Kernel Releases with Ramdisk Modificatio
 ----------------------------------------------------------------------------------
 ### by osm0sis @ xda-developers ###
 
+![Size](https://github-size-badge.herokuapp.com/:owner/:repo.svg)
+
 "AnyKernel is a template for an update.zip that can apply any kernel to any ROM, regardless of ramdisk." - Koush
 
 AnyKernel2 pushed the format further by allowing kernel developers to modify the underlying ramdisk for kernel feature support easily using a number of included command methods along with properties and variables to customize the installation experience to their kernel. AnyKernel3 adds the power of topjohnwu's magiskboot for wider format support by default, and to automatically detect and retain Magisk root by patching the new Image.*-dtb as Magisk would.
